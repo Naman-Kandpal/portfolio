@@ -1,6 +1,14 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, imageUrl, projectUrl, technologies }) => {
+interface ProjectCardProps {
+    title: string;
+    description: string;
+    imageUrl: string;
+    projectUrl: string;
+    technologies?: string[];
+}
+
+const ProjectCard = ({ title, description, imageUrl, projectUrl, technologies }: ProjectCardProps) => {
     return (
         <div className="bg-slate-800 rounded-lg shadow-xl overflow-hidden border border-slate-700 hover:border-cyan-400 transition-all hover:shadow-2xl hover:shadow-cyan-400/20 transform hover:-translate-y-1">
             <div className="relative overflow-hidden h-48">

@@ -7,14 +7,14 @@ export default function Home() {
         {
             title: 'Optimal Rubik\'s Cube Solver',
             description: 'An intelligent algorithm that finds the optimal solution to any Rubik\'s Cube configuration. Implements advanced search techniques and heuristics to minimize the number of moves required.',
-            imageUrl: '/images/cube.png?w=400&h=200&fit=crop',
+            imageUrl: '/portfolio/images/cube.png?w=400&h=200&fit=crop',
             projectUrl: 'https://github.com/Naman-Kandpal/optimal-rubiks-cube-solver',
             technologies: ['C++', 'OOPS', 'Graph Algorithms', 'Heuristic Search'],
         },
         {
             title: 'TSP Automated Tester',
             description: 'An automated testing framework for Traveling Salesperson Problem (TSP) solvers. Validates algorithm implementations against multiple test cases and benchmarks performance across different problem sizes.',
-            imageUrl: '/images/tsp.png?w=200&h=400&fit=crop',
+            imageUrl: '/portfolio/images/tsp.png?w=200&h=400&fit=crop',
             projectUrl: 'https://github.com/Naman-Kandpal/tsp-automated-tester',
             technologies: ['Python', 'Combinatorial Optimization', 'Graph Theory', 'Genetic Algorithms'],
         },
